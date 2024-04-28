@@ -1,0 +1,84 @@
+.product-fastBuyPopup {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  transition: all .2s ease-in-out;
+}
+
+.product-fastBuyPopupHidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.product-fastBuyPopup__content {
+  background-color: white;
+  padding: 40px 10px 60px 10px;
+  max-width: 795px;
+  width: 100%;
+  position: relative;
+}
+
+.product-fastBuyPopup__content-closeIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.product-fastBuyPopup__content-main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.product-fastBuyPopup__content-main-header {
+  text-align: center;
+}
+
+.product-fastBuyPopup__content-main-header-title {
+  font-weight: 500;
+  font-size: 38px;
+}
+
+@media screen and (max-width: 576px) {
+  .product-fastBuyPopup__content-main-header-title {
+    font-size: 25px;
+  }
+}
+
+.product-fastBuyPopup__content-main-header-subtitle {
+  max-width: 370px;
+  font-size: 18px;
+}
+
+/* ----- FORM ----- */
+.product-fastBuyPopup__content-main-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.product-fastBuyPopup__content-main-form-input {
+  height: 45px;
+  border-radius: 3px;
+  border: 1px solid #B2B5BB;
+  padding-left: 20px;
+  outline: none;
+}
+
+.product-fastBuyPopup__content-main-form-button {
+  height: 45px;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  border: none;
+}

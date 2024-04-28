@@ -1,0 +1,140 @@
+.cabinet-sidebar {
+  width: 30%;
+}
+
+.cabinet-sidebar__inner {
+  padding: 10px 5px;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+.cabinet-sidebar__loyaltyBlock {
+  padding: 18px;
+  margin-bottom: 15px;
+  background-color: #f7f7f7;
+}
+
+.cabinet-sidebar__loyaltyBlock-title {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.cabinet-sidebar__loyaltyBlock-title-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.cabinet-sidebar__loyaltyBlock-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabinet-sidebar__loyaltyBlock-content-amount {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cabinet-sidebar__loyaltyBlock-content-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cabinet-sidebar__loyaltyBlock-content-level {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.cabinet-sidebar__loyaltyBlock-content-link {
+  color: #666666;
+  text-decoration: underline;
+}
+
+.cabinet-sidebar__loyaltyBlock-content-link:hover {
+  text-decoration: none;
+  color: #666666;
+}
+
+.cabinet-sidebar__footer {
+  padding: 8% 10%;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  height: fit-content;
+}
+
+.cabinet-sidebar__footer-title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.cabinet-sidebar__footer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cabinet-sidebar__footer-buttons-item {
+  background-color: #F7F7F7;
+  border: none;
+  outline: none;
+  height: 45px;
+  font-size: 16px;
+}
+
+.cabinet-sidebar__backButton {
+  font-size: 20px;
+  color: black;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.cabinet-sidebar__backButton-Hidden {
+  display: none !important;
+}
+
+.cabinet-sidebar__backButton-img {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 991px) {
+  .cabinet-sidebar {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.cabinet-sidebar__title {
+  font-size: 30px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 991px) {
+  .cabinet-sidebar__title {
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+#v-pills-tab .cabinet-sidebar__nav-button {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+@media screen and (max-width: 1200px) {
+  #v-pills-tab .cabinet-sidebar__nav-button {
+    padding: 16px 10px;
+  }
+}
+
+#v-pills-tab .cabinet-sidebar__nav-button.active {
+  background-color: #F7F7F7;
+}
+
+.cabinet-sidebar__nav-button-img {
+  margin-right: 16px;
+}

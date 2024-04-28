@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "title": "Избранная рубашка",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": true,
+    "isBestseller": true,
+    "isDiscounted": true
+  },
+  {
+    "id": 1,
+    "title": "Избранная рубашка 2",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 2,
+    "title": "Избранная рубашка 3",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 3,
+    "title": "Избранная рубашка 4",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 4,
+    "title": "Избранная рубашка 5",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 5,
+    "title": "Избранная рубашка 6",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 6,
+    "title": "Избранная рубашка 7",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 7,
+    "title": "Избранная рубашка 8",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  }
+]

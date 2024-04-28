@@ -1,0 +1,74 @@
+.product-accordion .accordion-button {
+  padding: 15px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.product-accordion .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: transparent;
+}
+
+.product-accordion .accordion-button:not(.collapsed)::after {
+  filter: brightness(0);
+}
+
+.product-accordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+.product-accordion .accordion-body {
+  padding: 15px 0;
+}
+
+.product-accordion__Description-content {
+  margin-bottom: 25px;
+}
+
+.product-accordion__Description-content-img {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.product-accordion__Description-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #666666;
+  font-size: 16px;
+}
+
+.product-accordion__Description-values {
+  margin-bottom: 25px;
+}
+
+.product-accordion__Description-values-title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.product-accordion__Description-values-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-accordion__Description-values-list-row {
+  font-size: 16px;
+}
+
+.product-accordion__Description-values-list-row-key {
+  color: #666666;
+}
+
+.product-accordion__Description-careBlock-title {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.product-accordion__Description-careBlock-description {
+  margin-bottom: 20px;
+  font-size: 16px;
+}

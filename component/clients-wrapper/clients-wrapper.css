@@ -1,0 +1,177 @@
+.clients-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .clients-wrapper {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .clients-wrapper {
+    margin-top: 0;
+    flex-direction: column;
+  }
+}
+
+.clients-wrapper__main {
+  width: 70%;
+  border-radius: 3px;
+}
+
+.clients-wrapper__main-Hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .clients-wrapper__main {
+    width: 100%;
+  }
+}
+
+
+.clients-tabContainer {
+  padding: 45px 10%;
+  background-color: #FFFFFF;
+}
+@media screen and (max-width: 991px) {
+  .clients-tabContainer {
+    padding: 0;
+  }
+}
+
+/* ----- TAB HEADER ----- */
+.clients-tabContainer__header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.clients-tabContainer__header-title {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 991px) {
+  .clients-tabContainer__header-title {
+    font-size: 25px;
+  }
+}
+
+.clients-tabContainer__header-subtitle {
+  color: #666666;
+  font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  .clients-tabContainer__header-subtitle {
+    font-size: 16px;
+  }
+}
+
+/* ----- ACCORDION ----- */
+.clients-tabContainer__accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.clients-tabContainer__accordion-item {
+  border: none;
+  background-color: #F7F7F7;
+  border-radius: 3px;
+}
+
+.clients-tabContainer__accordion-item-button {
+  padding: 20px 25px;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  background-color: #f7f7f7;
+}
+@media screen and (max-width: 991px) {
+  .clients-tabContainer__accordion-item-button {
+    font-size: 16px;
+  }
+}
+
+.clients-tabContainer__accordion-item-button:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.clients-tabContainer__accordion-item-button:not(.collapsed) {
+  color: black;
+  background-color: #f7f7f7;
+}
+
+.clients-tabContainer__accordion-item-button.collapsed::after {
+  background: url('../../img/plus.svg');
+}
+
+.clients-tabContainer__accordion-item-button:not(.collapsed)::after {
+  background: url('../../img/minus.svg');
+}
+
+.clients-tabContainer__accordion-item-body {
+  padding: 20px 25px;
+  font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  .clients-tabContainer__accordion-item-body {
+    font-size: 16px;
+  }
+}
+
+.clients-tabContainer__accordion-item-body p {
+  margin-bottom: 30px;
+}
+
+.clients-tabContainer__accordion-item-body a {
+  text-decoration: underline;
+}
+
+.clients-tabContainer__accordion-item-body a:hover {
+  color: black;
+}
+
+/* ----- TABLE ----- */
+.clients-tabContainer__table {
+  display: table;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 576px) {
+  .clients-tabContainer__table {
+    font-size: 12px;
+    display: block;
+    overflow-y: scroll;
+  }
+}
+
+.clients-tabContainer__table th {
+  background-color: #f7f7f7;
+}
+
+.clients-tabContainer__table th,
+.clients-tabContainer__table td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 12px 15px;
+  color: black;
+}
+
+.clients-tabContainer__text {
+  font-size: 16px;
+  color: #666666;
+}
+
+.clients-sizes .clients-tabContainer__table th,
+.clients-sizes .clients-tabContainer__table td {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+}

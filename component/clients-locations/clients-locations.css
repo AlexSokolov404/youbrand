@@ -1,0 +1,32 @@
+.clients-locations__box {
+  background-color: #f7f7f7;
+  padding: 20px 25px;
+  font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  .clients-locations__box {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+.clients-locations__box-title {
+  margin-bottom: 30px;
+}
+
+.clients-locations__box-info {
+  display: flex;
+}
+
+.clients-locations__box-info-block {
+  width: 50%;
+}
+
+.clients-locations__box-info-block-value a {
+  display: block;
+  color: black;
+}
+
+.clients-locations__box-info-block-value a:hover {
+  color: black;
+}

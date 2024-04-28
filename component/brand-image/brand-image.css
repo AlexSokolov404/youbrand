@@ -1,0 +1,13 @@
+.section--brand-image {
+  margin-bottom: 100px;
+}
+
+.section--brand-image-img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .section--brand-image {
+    margin-bottom: 50px;
+  }
+}

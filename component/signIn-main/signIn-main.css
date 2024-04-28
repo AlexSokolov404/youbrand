@@ -1,0 +1,10 @@
+.main--signIn {
+  padding: 60px 0 100px 0;
+  background-color: #F7F7F7;
+}
+
+@media screen and (max-width: 768px) {
+  .main--signIn {
+    padding: 35px 0 50px 0;
+  }
+}

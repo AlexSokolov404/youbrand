@@ -1,0 +1,191 @@
+.signIn-commonBlock {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .signIn-commonBlock {
+    flex-direction: column;
+  }
+}
+
+.signIn-commonBlock__hidden {
+  display: none !important;
+}
+
+.signIn-commonBlock__white, .signIn-commonBlock__transparent {
+  max-width: 538px;
+  width: 100%;
+  border: 6px solid white;
+  padding: 6%;
+}
+@media screen and (max-width: 768px) {
+  .signIn-commonBlock__white, .signIn-commonBlock__transparent {
+    max-width: unset;
+  }
+}
+
+.signIn-commonBlock__white {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .signIn-commonBlock__white {
+    justify-content: flex-start;
+  }
+}
+
+.signIn-commonBlock__transparent {
+  background-color: transparent;
+}
+
+.signIn-commonBlock__white-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 330px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .signIn-commonBlock__white-content {
+    max-width: unset;
+  }
+}
+
+
+.signIn-commonBlock__white-content-title {
+  align-self: self-start;
+}
+
+.signIn-commonBlock__white-content-input {
+  width: 100%;
+  border-radius: 3px;
+  height: 45px;
+  padding: 0 20px;
+  border: 1px solid #B2B5BB;
+  outline: none;
+}
+
+.signIn-commonBlock__white-content-input::placeholder {
+  color: #B2B5BB;
+}
+
+.signIn-commonBlock__white-content-link {
+  margin-top: 6px;
+  align-self: self-start;
+  text-decoration: underline;
+}
+
+.signIn-commonBlock__white-content-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.signIn-commonBlock__white-content-button {
+  font-weight: 500;
+  margin-top: 6px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  transition: all .2s ease-in-out;
+  height: 45px;
+}
+
+.signIn-commonBlock__white-content-button:hover {
+  transform: scale(1.02);
+}
+
+.signIn-commonBlock__white-content-title {
+  margin-bottom: 26px;
+}
+
+.signIn-commonBlock__transparent-content-title {
+  margin-bottom: 14px;
+  color: black;
+}
+
+.signIn-commonBlock__transparent-content-text {
+  margin-bottom: 22px;
+}
+
+.signIn-commonBlock__transparent-content-button {
+  font-weight: 500;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  transition: all .2s ease-in-out;
+  height: 45px;
+  max-width: 220px;
+}
+@media screen and (max-width: 768px) {
+  .signIn-commonBlock__transparent-content-button {
+    max-width: unset;
+  }
+}
+
+.signIn-commonBlock__transparent-content-button:hover {
+  transform: scale(1.02);
+}
+
+/* ----- REGISTRATION ----- */
+.signIn-commonBlock__registration {
+  padding: 3% 6%;
+}
+
+.signIn-commonBlock__white-content-checkboxWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .signIn-commonBlock__white-content-checkboxWrapper {
+    gap: 10px;
+    justify-content: flex-start;
+  }
+}
+
+.signIn-commonBlock__white-content-checkboxWrapper-checkbox {
+  width: 26px;
+  height: 26px;
+}
+
+.signIn-commonBlock__white-content-checkboxWrapper-text {
+  font-size: 14px;
+  color: #B2B5BB;
+  margin-top: 2px;
+}
+
+.signIn-commonBlock__white-content-buttonWhite {
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid black;
+  outline: none;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  transition: all .2s ease-in-out;
+  height: 45px;
+}
+
+.signIn-commonBlock__white-content-buttonWhite:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* ----- FORGOT PASSWORD ----- */
+.signIn-commonBlock__white-content-text {
+  color: #B2B5BB;
+}

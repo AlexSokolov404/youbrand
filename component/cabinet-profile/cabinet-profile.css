@@ -1,0 +1,133 @@
+.cabinet-profile .cabinet-tabContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 45px 7%;
+}
+@media screen and (max-width: 768px) {
+  .cabinet-profile .cabinet-tabContainer {
+    flex-direction: column;
+  }
+}
+
+.cabinet-profile .cabinet-tabContainer__header-title {
+  margin-bottom: 24px;
+}
+
+.cabinet-profile__Profile {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .cabinet-profile__Profile {
+    margin-bottom: 40px;
+  }
+}
+
+.cabinet-profile__Profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cabinet-profile__Profile-form-input {
+  height: 45px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #B2B5BB;
+  border-radius: 3px;
+}
+
+.cabinet-profile__Profile-form-input::placeholder {
+  color: #666666;
+}
+
+.cabinet-profile__Profile-form-button {
+  margin-top: 8px;
+  background-color: black;
+  color: white;
+  height: 45px;
+  border: none;
+  border-radius: 3px;
+  transition: all .2s ease-in-out;
+  outline: none;
+}
+
+.cabinet-profile__Profile-form-button:hover {
+  transform: scale(1.02);
+}
+
+.cabinet-profile__Referral {
+  width: 100%;
+}
+
+.cabinet-profile__Referral-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cabinet-profile__Referral-content-header-text {
+  color: #666666;
+}
+
+.cabinet-profile__Referral-content-header-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.cabinet-profile__Referral-content-header-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.cabinet-profile__Referral-content-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cabinet-profile__Referral-content-links-item {
+  padding: 10px 10px 10px 24px;
+  background-color: #F7F7F7;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 305px;
+}
+@media screen and (max-width: 768px) {
+  .cabinet-profile__Referral-content-links-item {
+    max-width: unset;
+    padding: 10px 15px;
+  }
+}
+
+.cabinet-profile__Referral-content-links-item-text-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cabinet-profile__Referral-content-links-item-text-link {
+  font-weight: 400;
+  font-size: 20px;
+  color: #666666;
+}
+
+.cabinet-profile__Referral-content-links-item-copyButton {
+  cursor: pointer;
+}
+
+.cabinet-profile__Referral-content-footer {
+  color: #666666;
+}
+
+.cabinet-profile__Referral-content-footer a {
+  color: black;
+  text-decoration: underline;
+}
+
+.cabinet-profile__Referral-content-footer a:hover {
+  color: black;
+  text-decoration: none;
+}

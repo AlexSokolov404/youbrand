@@ -1,0 +1,33 @@
+.product-recentlyWatched {
+  margin-bottom: 100px;
+  min-height: 600px;
+}
+@media screen and (max-width: 768px) {
+  .product-recentlyWatched {
+    margin-bottom: 30px;
+  }
+}
+
+.product-recentlyWatched__title {
+  margin-bottom: 45px;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .product-recentlyWatched__title {
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+}
+
+.product-recentlyWatched__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .product-recentlyWatched__content .catalogGrid__wrapper-item-button {
+    display: none;
+  }
+}

@@ -1,0 +1,101 @@
+.clients-loyaltyProgram__pointsTable {
+  padding: 20px 25px;
+  background-color: #F7F7F7;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 991px) {
+  .clients-loyaltyProgram__pointsTable {
+    font-size: 16px;
+  }
+}
+
+.clients-loyaltyProgram__pointsTable-section-title {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 991px) {
+  .clients-loyaltyProgram__pointsTable-section-title {
+    font-size: 18px;
+  }
+}
+
+.clients-loyaltyProgram__pointsTable-section-ul {
+  color: #666666;
+}
+
+.clients-loyaltyProgram__pointsTable-section:first-of-type {
+  margin-bottom: 30px;
+}
+
+.clients-loyaltyProgram__levels-title {
+  font-size: 25px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .clients-loyaltyProgram__levels-title {
+    font-size: 20px;
+  }
+}
+
+.clients-loyaltyProgram__levels-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 991px) {
+  .clients-loyaltyProgram__levels-list {
+    font-size: 16px;
+  }
+}
+
+.clients-loyaltyProgram__levels-list-item {
+  background-color: #F7F7F7;
+  padding: 20px 25px;
+}
+
+.clients-loyaltyProgram__levels-list-item-title {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+@media screen and (max-width: 991px) {
+  .clients-loyaltyProgram__levels-list-item-title {
+    font-size: 18px;
+  }
+}
+
+.clients-loyaltyProgram__levels-list-item-content {
+  color: #666666;
+}
+
+.clients-loyaltyProgram__levels-text {
+  color: #666666;
+  font-size: 20px;
+  text-align: center;
+  max-width: 470px;
+  margin: 0 auto 30px auto;
+}
+@media screen and (max-width: 991px) {
+  .clients-loyaltyProgram__levels-text {
+    font-size: 14px;
+  }
+}
+
+.clients-loyaltyProgram__levels-button {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0;
+  max-width: 375px;
+  width: 100%;
+  height: 45px;
+  margin: 0 auto;
+  display: block;
+  outline: none;
+  border: none;
+}
