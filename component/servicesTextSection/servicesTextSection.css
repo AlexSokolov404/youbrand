@@ -1,0 +1,33 @@
+.section--brand-textSection__textGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .section--brand-textSection__textGroup-title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  .section--brand-textSection__textGroup-subtitle {
+    font-size: 30px;
+  }
+  
+  .section--brand-textSection__textGroup-text {
+    font-size: 20px;
+    color: #666666;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .section--brand-textSection__textGroup-title {
+      font-size: 30px;
+    }
+  
+    .section--brand-textSection__textGroup-subtitle {
+      font-size: 18px;
+    }
+  
+    .section--brand-textSection__textGroup-text {
+      font-size: 16px;
+    }
+  }

@@ -8,6 +8,10 @@
   }
 }
 
+.container{
+  width: 100%;
+}
+
 .servicesGrid__header {
   display: flex;
   font-size: 40px;
@@ -533,6 +537,10 @@
   color: #ffffff;
 }
 
+.services-banner__img{
+  width: 100%;
+}
+
 .servicesGrid-commonBlock__white-content-button {
   font-weight: 500;
   margin-top: 6px;
@@ -559,11 +567,12 @@
 
 .servicesGrid__wrapper-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
   gap: 30px;
 }
 
 .services__card {
+  max-width: 795px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -572,6 +581,8 @@
 }
 
 .services__card .card-image {
+  width: 230px;
+  height: 267px;
   margin: 5px 0 5px 5px;
 }
 
