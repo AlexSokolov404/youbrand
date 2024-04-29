@@ -567,7 +567,7 @@
 
 .servicesGrid__wrapper-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 30px;
 }
 
@@ -654,6 +654,22 @@
 
 .prices__btn:hover .arrow__btn-white{
     display: block;
+}
+
+@media (max-width: 1127px) {
+  .services__card{
+    flex-direction: column;
+  }
+  .services__card .card-image{
+    width: 100%;
+    margin: 5px 5px 0 5px;
+  }
+  .services__card .card-info{
+    width: auto;
+  }
+  .servicesGrid__wrapper-cards{
+    grid-template-columns: repeat(auto-fit, minmax(321px, 1fr));
+  }
 }
 
 /* ----- services.html ----- */
@@ -828,7 +844,7 @@
 /* ----- Pagination Box -----*/
 
 .servicesGrid__paginationBox {
-  margin-bottom: 100px;
+  margin-bottom: 68px;
   display: flex;
   justify-content: center;
   align-items: center;

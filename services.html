@@ -3732,7 +3732,7 @@
             </div>
           </div>
 
-          <!-- 4) About brand -->
+          <!-- 4) About services -->
           <div
             data-mobile-child="aboutBrand"
             class="headerMobilePopup__menu-child headerMobilePopup__hidden"
@@ -4634,39 +4634,55 @@
 
           <div class="servicesGrid__actions">
             <!-- Buttons -->
-            <button
-              class="servicesGrid-commonBlock__white-content-button"
-              type="submit"
+            <a href="#dev"
+              ><button
+                class="servicesGrid-commonBlock__white-content-button"
+                type="submit"
+              >
+                Разработка сайтов
+              </button></a
             >
-              Разработка сайтов
-            </button>
-            <button
-              class="servicesGrid-commonBlock__white-content-button"
-              type="submit"
+
+            <a href="#design"
+              ><button
+                class="servicesGrid-commonBlock__white-content-button"
+                type="submit"
+              >
+                Дизайн
+              </button></a
             >
-              Дизайн
-            </button>
-            <button
-              class="servicesGrid-commonBlock__white-content-button"
-              type="submit"
+
+            <a href="#marketing"
+              ><button
+                class="servicesGrid-commonBlock__white-content-button"
+                type="submit"
+              >
+                Интернет-маркетинг
+              </button></a
             >
-              Интернет-маркетинг
-            </button>
-            <button
-              class="servicesGrid-commonBlock__white-content-button"
-              type="submit"
-            >
-              Автоматизация бизнеса
-            </button>
-            <button
-              class="servicesGrid-commonBlock__white-content-button"
-              type="submit"
-            >
-              Информационная безопасность
-            </button>
+
+            <a href="#autoBis">
+              <button
+                class="servicesGrid-commonBlock__white-content-button"
+                type="submit"
+              >
+                Автоматизация бизнеса
+              </button>
+            </a>
+
+            <a href="#security">
+              <button
+                class="servicesGrid-commonBlock__white-content-button"
+                type="submit"
+              >
+                Информационная безопасность
+              </button>
+            </a>
+            <a name="dev"></a>
           </div>
 
           <div class="servicesGrid__wrapper">
+            
             <div class="servicesGrid__wrapper-title">Разработка сайтов</div>
             <div class="servicesGrid__wrapper-cards">
               <div class="services__card">
@@ -4745,7 +4761,7 @@
                 </div>
               </div>
 
-			  <div class="services__card">
+              <div class="services__card">
                 <div class="card-image">
                   <img
                     data-src="img/pages/services/servicesCatalogImg.png"
@@ -4783,7 +4799,7 @@
                 </div>
               </div>
 
-			  <div class="services__card">
+              <div class="services__card">
                 <div class="card-image">
                   <img
                     data-src="img/pages/services/servicesCatalogImg.png"
@@ -4816,13 +4832,12 @@
                         alt="arrow"
                         class="arrow__btn-white"
                       />
-                    </div>
+                    </div></div><a name="design"></a>
                   </div>
                 </div>
               </div>
-
-            </div>
-			<div class="servicesGrid__wrapper-title">Дизайн</div>
+            
+            <div class="servicesGrid__wrapper-title">Дизайн</div>
             <div class="servicesGrid__wrapper-cards">
               <div class="services__card">
                 <div class="card-image">
@@ -4900,7 +4915,7 @@
                 </div>
               </div>
 
-			  <div class="services__card">
+              <div class="services__card">
                 <div class="card-image">
                   <img
                     data-src="img/pages/services/servicesCatalogImg.png"
@@ -4938,7 +4953,7 @@
                 </div>
               </div>
 
-			  <div class="services__card">
+              <div class="services__card">
                 <div class="card-image">
                   <img
                     data-src="img/pages/services/servicesCatalogImg.png"
@@ -4975,7 +4990,6 @@
                   </div>
                 </div>
               </div>
-			  
             </div>
             <!-- Products loading from .json -->
           </div>
@@ -5015,27 +5029,30 @@
       </section>
 
       <!-- component/services-bottom-title -->
-      <section class="section section--brand-textSection">
+      <section class="section section--services-textSection">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div
+              class="col-12 col-md-10 col-xl-6 section--services-textSection__textGroup"
+            >
+              <h2 class="h2 section--services-textSection__textGroup-title">
+                Заголовок
+              </h2>
 
-				<div class="container">
-
-						<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-xl-6 section--brand-textSection__textGroup">
-
-										<h2 class="h2 section--brand-textSection__textGroup-title">
-												Заголовок
-										</h2>
-
-										<div class="section--brand-textSection__textGroup-text">
-                      Льняная рубашка с воротником хенли в рустикальном стиле. Узкие манжеты застегиваются на пуговицы. Благодаря закругленному низу рубашку можно носить заправленной и навыпуск. Натуральная ткань из смеси хлопка и льна подойдет для теплой и жаркой погоды.
-										</div>
-								</div>
-						</div>
-
-				</div>
-
-		</section>
-      
+              <div class="section--services-textSection__textGroup-text">
+                Льняная рубашка с воротником хенли в рустикальном стиле. Узкие
+                манжеты застегиваются на пуговицы. Благодаря закругленному низу
+                рубашку можно носить заправленной и навыпуск. Натуральная ткань
+                из смеси хлопка и льна подойдет для теплой и жаркой погоды.
+              </div>
+              <div class="section--services-textSection__textGroup-text">
+                Дополнит ваш летний гардероб. Она сочетается с джинсами, шортами
+                и чиносами.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
