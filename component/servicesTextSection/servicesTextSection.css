@@ -1,18 +1,19 @@
+.section--services-textSection .container{
+  display: flex;
+  justify-content: center;
+}
+
 .section--services-textSection__textGroup {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    min-width: 1070px;
+    max-width: 1070px;
     margin-bottom: 128px;
   }
   
   .section--services-textSection__textGroup-title {
-    font-size: 40px;
-    font-weight: 500;
-  }
-  
-  .section--services-textSection__textGroup-subtitle {
     font-size: 30px;
+    font-weight: 500;
   }
   
   .section--services-textSection__textGroup-text {
@@ -20,15 +21,11 @@
     color: #666666;
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 768px) {
     .section--services-textSection__textGroup-title {
-      font-size: 30px;
+      font-size: 22px;
     }
-  
-    .section--services-textSection__textGroup-subtitle {
-      font-size: 18px;
-    }
-  
+    
     .section--services-textSection__textGroup-text {
       font-size: 16px;
     }
