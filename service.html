@@ -52,16 +52,7 @@
     />
 
     <!-- Page components -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="component/servicesGrid/servicesGrid.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="component/servicesTextSection/servicesTextSection.css"
-    />
+    <link rel="stylesheet" type="text/css" href="component/service-mainBanner/service-mainBanner.css" />
 
     <!-- Footer components -->
     <link
@@ -4590,16 +4581,54 @@
     </header>
 
     <main class="main">
-      <!-- component/services-banner -->
-      <section class="services-banner">
+      <!-- component/service-banner -->
+      <section class="service-banner">
         <div class="container">
-          <img
-            data-src="img/pages/services/banner.png"
-            alt="banner"
-            class="d-none d-sm-block b-lazy services-banner__img"
-          />
-          <img data-src="img/pages/services/banner-small.png" alt="banner-small"
-								 class="d-block d-sm-none b-lazy services-bannerMobile__img">
+          <div class="serviceGrid__serviceHeader-breadcrumbs">
+            <a
+              href="index.html"
+              class="serviceGrid__serviceHeader-breadcrumbs-item"
+              >Главная</a
+            >
+            <div class="serviceGrid__serviceHeader-breadcrumbs-line"></div>
+            <a href="#" class="serviceGrid__serviceHeader-breadcrumbs-item"
+              >Услуги</a
+            >
+            <div class="serviceGrid__serviceHeader-breadcrumbs-line"></div>
+            <a href="#" class="serviceGrid__serviceHeader-breadcrumbs-item"
+              >Разработка сайтов</a
+            >
+            <div class="serviceGrid__serviceHeader-breadcrumbs-line"></div>
+            <a href="#" class="serviceGrid__serviceHeader-breadcrumbs-item"
+              >Запуск сайта на готовом решении 1С-Битрикс</a
+            >
+          </div>
+          <div class="serviceBanner__container-info">
+            <div class="serviceBanner__container-info-text">
+                <h1 class="serviceBanner__container-info-text-title">
+                    Запуск сайта на готовом решении 1С-Битрикс
+                </h1>
+                <div class="serviceBanner__container-info-text-discription">
+                    Быстрый старт в онлайн-торговле без лишних хлопот: легкий и эффективный запуск с интеграцией 1С для максимальной удобства.
+                </div>
+                <div class="serviceBanner__container-info-text-pricesWrappper">
+                    <div class="price">
+                        100 000 ₽
+                    </div>
+                    <div class="sale">150 000 ₽</div>
+                </div>
+                <div class="serviceBanner__container-info-text-button">
+                    <button class="main-button">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="serviceBanner__container-info-image">
+                <img
+                data-src="img/pages/service/banner-icons.png"
+                alt="banner"
+                class="b-lazy services-banner__img"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -4607,16 +4636,16 @@
       <section class="servicesGrid servicesGrid--services">
         <div class="container">
           <!-- services.html products grid header -->
-          <div class="servicesGrid__servicesHeader">
-            <div class="servicesGrid__servicesHeader-title">Услуги</div>
-            <div class="servicesGrid__servicesHeader-breadcrumbs">
+          <div class="serviceGrid__serviceHeader">
+            <div class="serviceGrid__serviceHeader-title">Услуги</div>
+            <div class="serviceGrid__serviceHeader-breadcrumbs">
               <a
                 href="index.html"
-                class="servicesGrid__servicesHeader-breadcrumbs-item"
+                class="serviceGrid__serviceHeader-breadcrumbs-item"
                 >Главная</a
               >
-              <div class="servicesGrid__servicesHeader-breadcrumbs-line"></div>
-              <a href="#" class="servicesGrid__servicesHeader-breadcrumbs-item"
+              <div class="serviceGrid__serviceHeader-breadcrumbs-line"></div>
+              <a href="#" class="serviceGrid__serviceHeader-breadcrumbs-item"
                 >Услуги</a
               >
             </div>
@@ -4672,7 +4701,6 @@
           </div>
 
           <div class="servicesGrid__wrapper">
-            
             <div class="servicesGrid__wrapper-title">Разработка сайтов</div>
             <div class="servicesGrid__wrapper-cards">
               <div class="services__card">
@@ -4822,11 +4850,13 @@
                         alt="arrow"
                         class="arrow__btn-white"
                       />
-                    </div></div><a name="design"></a>
+                    </div>
                   </div>
+                  <a name="design"></a>
                 </div>
               </div>
-            
+            </div>
+
             <div class="servicesGrid__wrapper-title">Дизайн</div>
             <div class="servicesGrid__wrapper-cards">
               <div class="services__card">
@@ -5020,23 +5050,21 @@
       <!-- component/services-bottom-title -->
       <section class="section section--services-textSection">
         <div class="container">
-            <div
-              class="section--services-textSection__textGroup"
-            >
-              <h2 class="h2 section--services-textSection__textGroup-title">
-                Заголовок
-              </h2>
+          <div class="section--services-textSection__textGroup">
+            <h2 class="h2 section--services-textSection__textGroup-title">
+              Заголовок
+            </h2>
 
-              <div class="section--services-textSection__textGroup-text">
-                Льняная рубашка с воротником хенли в рустикальном стиле. Узкие
-                манжеты застегиваются на пуговицы. Благодаря закругленному низу
-                рубашку можно носить заправленной и навыпуск. Натуральная ткань
-                из смеси хлопка и льна подойдет для теплой и жаркой погоды.
-              </div>
-              <div class="section--services-textSection__textGroup-text">
-                Дополнит ваш летний гардероб. Она сочетается с джинсами, шортами
-                и чиносами.
-              </div>
+            <div class="section--services-textSection__textGroup-text">
+              Льняная рубашка с воротником хенли в рустикальном стиле. Узкие
+              манжеты застегиваются на пуговицы. Благодаря закругленному низу
+              рубашку можно носить заправленной и навыпуск. Натуральная ткань из
+              смеси хлопка и льна подойдет для теплой и жаркой погоды.
+            </div>
+            <div class="section--services-textSection__textGroup-text">
+              Дополнит ваш летний гардероб. Она сочетается с джинсами, шортами и
+              чиносами.
+            </div>
           </div>
         </div>
       </section>
