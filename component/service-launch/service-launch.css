@@ -1,0 +1,104 @@
+.service-launch {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.service-launch__info {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 30px;
+  padding-bottom: 100px;
+}
+
+.service-launch__info-wrapper-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.service-launch__info-wrapper-discription {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.9px;
+  color: #48494d;
+  margin-bottom: 40px;
+}
+
+.service-launch__info-wrapper-discription div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.service-launch__info-wrapper-button {
+  width: 191px;
+  height: 45px;
+  padding: 11px 21px 11px 21px;
+  background-color: black;
+  border-radius: 3px;
+  border: none;
+  transition: all ease-in 0.3s;
+  color: white;
+}
+
+.service-launch__info-wrapper-button:hover {
+  -webkit-box-shadow: 0px 0px 0px 3px black;
+  -moz-box-shadow: 0px 0px 0px 3px black;
+  box-shadow: 0px 0px 0px 3px black;
+}
+
+.service-launch__info-image img {
+  width: 100%;
+}
+
+.service-launch__stage-work {
+  padding-top: 32px;
+}
+
+.service-launch__stage-work-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 40px;
+}
+
+.service-launch__stage-work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+.service-launch__stage-work-grid-element {
+  background-color: white;
+  padding: 26px;
+}
+
+.service-launch__stage-work-grid-element .element-number {
+  width: 44px;
+  height: 44px;
+  background-color: #f7f7f7;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34.68px;
+  text-align: center;
+  color: #5d83ff;
+  margin-bottom: 20px;
+}
+
+.service-launch__stage-work-grid-element .element-title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31.79px;
+  margin-bottom: 6px;
+}
+
+.service-launch__stage-work-grid-element .element-discription {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.12px;
+}

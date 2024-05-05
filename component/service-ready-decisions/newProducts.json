@@ -1,0 +1,188 @@
+[
+  {
+    "id": 0,
+    "title": "Новое из льняной смеси",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": true,
+    "isBestseller": true,
+    "isDiscounted": true,
+    "discountSize": 10,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Новое из льняной смеси 2",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": true,
+    "isBestseller": true,
+    "isDiscounted": true,
+    "discountSize": 12,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Новое из льняной смеси 3",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Новое из льняной смеси 4",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Новое из льняной смеси 5",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Новое из льняной смеси 6",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Новое из льняной смеси 7",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Новое из льняной смеси 8",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  }
+]

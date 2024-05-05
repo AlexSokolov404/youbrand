@@ -1,0 +1,206 @@
+[
+  {
+    "url": "#",
+    "id": 0,
+    "title": "Рубашка из льняной смеси",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "newPrice": 4000,
+    "discountSize": 2,
+    "isNew": true,
+    "isBestseller": true,
+    "isDiscounted": true,
+    "colors": [
+
+    ]
+  },
+  {
+    "url": "#",
+    "id": 1,
+    "title": "Рубашка из льняной смеси 2",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "discountSize": 123,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": true,
+    "colors": [
+      {
+        "id": 23,
+        "xmlID": "mgYqU7so",
+        "name": "Розовый",
+        "code": "#fff"
+      },
+      {
+        "id": 23,
+        "xmlID": "mgYqU7so",
+        "name": "Синий",
+        "code": "#fff"
+      }
+    ],
+    "sizes": [
+      {
+        "id": 15,
+        "xmlID": "eb9e82e7f739fe5a3d938d3404bdfc60",
+        "name": "XS"
+      },
+      {
+        "id": 17,
+        "xmlID": "fd386885052ce9e327150cd9a8100da1",
+        "name": "S"
+      }
+    ]
+  },
+  {
+    "url": "#",
+    "id": 2,
+    "title": "Рубашка из льняной смеси 3",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "discountSize": 3,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": true,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "url": "#",
+    "id": 3,
+    "title": "Рубашка из льняной смеси 4",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "discountSize": 5,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": true,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "url": "#",
+    "id": 4,
+    "title": "Рубашка из льняной смеси 5",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "discountSize": 10,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": true,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "url": "#",
+    "id": 5,
+    "title": "Рубашка из льняной смеси 6",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "discountSize": 10,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": true,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "url": "#",
+    "id": 6,
+    "title": "Рубашка из льняной смеси 7",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "discountSize": 10,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": true,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  },
+  {
+    "url": "#",
+    "id": 7,
+    "title": "Рубашка из льняной смеси 8",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 5000,
+    "newPrice": 3000,
+    "discountSize": 10,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": true,
+    "colors": [
+      {
+        "id": "12",
+        "name": "Розовый",
+        "code": "#FFD1DC"
+      },
+      {
+        "id": "13",
+        "name": "Синий",
+        "code": "#8Db4D2"
+      }
+    ]
+  }
+]
