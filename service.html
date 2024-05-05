@@ -77,6 +77,11 @@
       type="text/css"
       href="component/service-ready-decisions/service-ready-decisions.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="component/service-popupMovie/service-popupMovie.css"
+    />
 
     <!-- Footer components -->
     <link
@@ -4707,15 +4712,15 @@
           </div>
           <div class="service-movie__blocks">
             <div class="service-movie__block">
-              <button class="btn-play">
+              <button
+                class="btn-play"
+              >
                 <img
                   src="component/service-movie/img/button-play.svg"
                   alt="play"
                 />
               </button>
             </div>
-          </div>
-          <div class="service-movie__blocks">
             <div class="service-movie__block">
               <button class="btn-play">
                 <img
@@ -4724,8 +4729,6 @@
                 />
               </button>
             </div>
-          </div>
-          <div class="service-movie__blocks">
             <div class="service-movie__block">
               <button class="btn-play">
                 <img
@@ -4961,6 +4964,76 @@
           </div>
         </div>
       </section>
+
+      <!-- component/service-moviePopup -->
+      <div class="service-moviePopup service-moviePopupHidden">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="service-moviePopup__content">
+            <img
+              src="component/product-fastBuyPopup/img/close-icon.svg"
+              alt="close-icon"
+              class="service-moviePopup__content-closeIcon"
+            />
+            <iframe id="video" width="1079px" height="605px" src="https://www.youtube.com/embed/74rymc7HSmw?rel=0&amp&loop=1&controls=0&amp&modestbranding=1&showinfo=0&controls=0&autohide=1&frameborder=1" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- component/submit-applicationPopup -->
+      <div class="service-moviePopup service-moviePopupHidden">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="service-moviePopup__content">
+            <img
+              src="component/service-moviePopup/img/close-icon.svg"
+              alt="close-icon"
+              class="service-moviePopup__content-closeIcon"
+            />
+
+            <div class="service-moviePopup__content-main">
+              <!-- Header -->
+              <div class="service-moviePopup__content-main-header">
+                <div class="service-moviePopup__content-main-header-title">
+                  Быстрая покупка
+                </div>
+
+                <div class="service-moviePopup__content-main-header-subtitle">
+                  Оставь свои контакты и мы свяжемся максимально быстро в
+                  рабочее время
+                </div>
+              </div>
+
+              <!-- Form -->
+              <form
+                name="fastBuyForm"
+                class="service-moviePopup__content-main-form"
+              >
+                <input
+                  id="name"
+                  class="service-moviePopup__content-main-form-input"
+                  placeholder="Введите ваше Имя *"
+                  required
+                />
+
+                <input
+                  id="phone"
+                  class="service-moviePopup__content-main-form-input"
+                  placeholder="Введите ваш Телефон *"
+                  required
+                />
+
+                <!-- Submit -->
+                <button
+                  type="submit"
+                  class="service-moviePopup__content-main-form-button"
+                >
+                  Оставить заявку
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </main>
 
     <footer>
@@ -5346,6 +5419,7 @@
     <script src="component/headerMobilePopup/headerMobilePopup.js"></script>
 
     <script src="component/service-ready-decisions/decisionsGrid.js"></script>
+    <script src="component/service-popupMovie/service-popupMovie.js"></script>
 
     <script src="component/footer1/footer1.js"></script>
     <script src="component/footer2/footer2.js"></script>

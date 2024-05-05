@@ -31,16 +31,18 @@
 
 .service-movie__block .btn-play {
   visibility: hidden;
-  position: absolute;
   top: 50%;
   left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
   border: none;
   border-radius: 50%;
   z-index: 2;
 }
 
 .service-movie__block:hover {
-  filter: brightness(50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("/img/pages/service/service-movie-image.png");
 }
 
 .service-movie__block:hover .btn-play {
